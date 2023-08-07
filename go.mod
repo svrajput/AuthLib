@@ -1,4 +1,4 @@
-module testCode/Projects/BankAuth
+module github.com/svrajput/BankAuth
 
 go 1.20
 
