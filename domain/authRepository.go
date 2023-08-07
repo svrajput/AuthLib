@@ -4,8 +4,8 @@ import (
 	"database/sql"
 
 	"github.com/jmoiron/sqlx"
-	"github.com/svrajput/golang-banking/errs"
-	"github.com/svrajput/golang-banking/logger"
+	"github.com/svrajput/bank-lib/errs"
+	"github.com/svrajput/bank-lib/logger"
 )
 
 type AuthRepository interface {

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
+	"github.com/svrajput/bank-lib/logger"
 	"github.com/svrajput/golang-banking/dto"
-	"github.com/svrajput/golang-banking/logger"
 	"github.com/svrajput/golang-banking/service"
 )
 

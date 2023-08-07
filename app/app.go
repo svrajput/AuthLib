@@ -9,8 +9,8 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/jmoiron/sqlx"
+	"github.com/svrajput/bank-lib/logger"
 	"github.com/svrajput/golang-banking/domain"
-	"github.com/svrajput/golang-banking/logger"
 	"github.com/svrajput/golang-banking/service"
 )
 

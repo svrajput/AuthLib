@@ -5,9 +5,9 @@ import (
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/svrajput/BankAuth/domain"
+	"github.com/svrajput/bank-lib/errs"
+	"github.com/svrajput/bank-lib/logger"
 	"github.com/svrajput/golang-banking/dto"
-	"github.com/svrajput/golang-banking/errs"
-	"github.com/svrajput/golang-banking/logger"
 )
 
 type AuthService interface {
